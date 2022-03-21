@@ -3,7 +3,7 @@ const router = express.Router()
 const Book = require('../models/book')
 const Author = require('../models/author')
 const { redirect } = require('express/lib/response')
-const imageMimeTypes = ['image/jpeg', 'image/png', 'image/gif','images/jpg']
+const imageMimeTypes = ['image/jpeg', 'image/png', 'image/gif','image/jpg','image/webp']
 
 
 // All Books Route
